@@ -22,12 +22,14 @@ a{
 }
 .Header-Section{
     height: 100px;
+    position: fixed;
+    width: 100%;
 }
 .Header-Section .container{
     height: 100%;
-    background-color: skyblue;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .header-menu .menu{
     display: flex;
@@ -36,8 +38,24 @@ a{
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     color: #ffffff;
+    padding: 14px 30px;
+    text-transform: uppercase;
+}
+.header-menu .menu li:last-child a{
+    padding-right: 0;
 }
 
+
+/*----------------- Banner-Section ----------------- */
+
+
+.Banner-Section{
+    background-image: url(./images/bg-image.png);
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
 
 
 
