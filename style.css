@@ -7,19 +7,53 @@ font-family: 'Raleway', sans-serif; */
     padding: 0;
     box-sizing: border-box;
 }
-.ul li
-
+ul li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
 .container{
     width: 1200px;
     padding: 0 15px;
     margin: 0 auto;
-}
 
-.header-section{
+}
+.Header-Section{
     height: 100px;
-
 }
-.header-section .container{
+.Header-Section .container{
     height: 100%;
-    background-color: cadetblue;
+    background-color: skyblue;
+    display: flex;
+    justify-content: space-between;
 }
+.header-menu .menu{
+    display: flex;
+}
+.header-menu .menu li a{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;
