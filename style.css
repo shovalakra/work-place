@@ -30,7 +30,7 @@ a{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid #fff;
+    
 }
 .header-menu .menu{
     display: flex;
@@ -65,7 +65,7 @@ a{
 }
 .Banner-Section .container h1{
     font-size: 65px;
-    font-family: 'Open Sans', sans-serif;
+    font-family:  'Raleway', sans-serif;
     font-weight: 700;
     line-height: 68px;
     text-transform: uppercase;
@@ -94,6 +94,41 @@ a{
  }
 
 
+/* -------------- Service-Section -------------- */
+
+.Service-Section{
+    padding: 120px 0;
+}
+.Service-Section .container{
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: space-between;
+   row-gap: 80px;
+    
+
+}
+.Service-item{
+    max-width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 40px;
+}
+.Service-item h1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: black;
+    margin-top: 36px;
+    margin-bottom: 26px;
+    text-transform: uppercase;
+}
+.Service-item p{
+    text-align: center;
+    color: #6C7279;
+    
+}
+  
 
 
 
@@ -113,4 +148,5 @@ a{
 
 
 
-;
+
+
