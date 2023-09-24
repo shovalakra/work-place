@@ -1,5 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@200&display=swap');
-/* font-family: 'Open Sans', sans-serif;
+
+/*font-family: 'Cardo', serif;
+font-family: 'Open Sans', sans-serif;
 font-family: 'Raleway', sans-serif; */
 
 *{
@@ -194,12 +195,119 @@ a{
 }
 
 
+        /* -------------team section -------------- */
+
+.team-section{
+    padding: 100px 0;
+
+}
+.team-section .container{
+    display: flex;
+    justify-content: space-between;
+}
+.team-member{
+    max-width: calc(25% - 22.5px);
+    
+}
+.team-member h3, .team-member p{
+    font-family: 'Raleway', sans-serif;
+}
+
+.team-member h3{
+    font-size: 22px;
+    color: #2D3033;
+    margin-top: 30px;
+    margin-bottom: 16px;
+}
+
+.team-member h4{
+    font-size: 13px;
+   text-transform: uppercase;
+    color: #E84545;
+}
+.team-member p{
+    font-size: 14px;
+    color: #898E94;
+    margin: 30px 0;
+    padding-right: 22px;
+}
+.team-member_social-icon{
+    display: flex;
+   column-gap: 4px;
+}
+.team-member_social-icon a{
+    height: 40px;
+    width: 40px;
+    border: 1px solid #E8ECEE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.team-member_social-icon a i{
+    color: #C6CACC;
+}
+
+
+  /* ------------- testimonial section -------------- */
+
+.testimonial-section{
+    background-color: #53354A;
+}
+
+.testimonial-content{
+    display: flex;
+}
+.tc-item{
+    width: 55%;
+}
+.testimonial-image img{
+    width: 100%;
+    height: 100%;
+}
+.testimonial-text{
+    padding-top: 115px;
+    padding-left: 80px;
+}
+.testimonial-text p:first-of-type{
+    font-size: 36px;
+    font-style: italic;
+    color: #fff;
+    padding-right: 210px;
+}
+.testimonial-text p:last-of-type{
+    font-size: 13px;
+    font-weight: 700;
+    color: #fff;
+    font-family: 'Cardo', serif;
+    text-transform: uppercase;
+    margin-top: 28px;
+}
+
+.indicator{
+    display: flex;
+    margin-top: 64px;
+    margin-left: 200px;
+    column-gap: 8px;
+}
+.indicator-item{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #897583;
+}
+.indicator .indicator-item:nth-child(2){
+    background-color: #fff;
+}
 
 
 
+    /* -------------- Download-section --------------- */
 
-
-
+.Download-section{
+    text-align: center;
+    padding: 100px 0;
+}
 
 
 
