@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital@1&family=Open+Sans:wght@300;400;500;600;700;800&family=Raleway:wght@300;400;500;600;700;800&display=swap');
 /*font-family: 'Cardo', serif;
 font-family: 'Open Sans', sans-serif;
 font-family: 'Raleway', sans-serif; */
@@ -308,6 +308,71 @@ a{
     text-align: center;
     padding: 100px 0;
 }
+.Download-section p{
+    font-size: 28px;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+    color: #737577;
+}
+.Download-section h5{
+    font-size: 13px;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    margin-top: 18px;
+    margin-bottom: 36px;
+}
+.Download-section a{
+    font-size: 13px;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    background-color: #E84545;
+    color: #fff;
+    padding: 13px 85px;
+    border-radius: 1px;
+
+}
+
+
+        /* ------------- fotter-section -------------- */
+
+.fotter-section{
+    background-color: #3A3E64;
+}
+.fotter-part{
+    padding: 40px 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    text-align: center;
+}
+
+.fotter-section_1{
+    width: 30%;
+}
+.fotter-section_2{
+    width: 30%;
+}
+.fotter-section-3{
+    width: 30%;
+}
+.fotterr{
+    font-size: 14px;
+    font-weight: 800;
+    font-family: 'Raleway', sans-serif;
+    color: #FFF;
+    margin-bottom: 22px;
+}
+.fotterpara{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+    color: #7C7E98;
+}
+
+
+
+
 
 
 
